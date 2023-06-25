@@ -1,4 +1,4 @@
-package com.juaracoding.fajavafundamental;
+package com.juaracoding.fajavafundamental.cobacoba;
 /*
 Created by IntelliJ IDEA 2023.1.2 (Community Edition)
 Build #IC-231.9011.34, built on May 16, 2023
@@ -9,17 +9,19 @@ Created on 6/22/2023 2:55 PM
 Version 1.0
 */
 
+import java.util.Scanner;
+
 public class OpJava {
     public static void main(String[] args) {
 
-
+        /*testing1*/
 //        int num1= 10;
 //        int x;
 //        for(x=2; x<9; x++) {
 //            System.out.println("hitungan ke"+x+" adalah "+num1*x);
 //        }
 
-
+        /*testing1*/
 //    int num = 5;
 //    int numplus = ++num;
 //    System.out.println(numplus);
@@ -45,13 +47,13 @@ public class OpJava {
 //        System.out.println( "Isi variabel e: " + e);
 //        System.out.println( "Isi variabel f: " + f);
 
-
-        int a = 10;
-        int b = 5;
-        boolean hasil;
-
-        hasil = a <= b;
-        System.out.println("hasil and: "+hasil);
+        /*testing1*/
+//        int a = 10;
+//        int b = 5;
+//        boolean hasil;
+//
+//        hasil = a <= b;
+//        System.out.println("hasil and: "+hasil);
 
 
 
