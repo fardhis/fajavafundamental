@@ -48,7 +48,7 @@ public class Praktikum1 {
                     (intConvert>=32 && intConvert<=47 ) ||
                             (intConvert>=58 && intConvert<=64)||
                             (intConvert>=48 && intConvert<=57)||
-                            (intConvert>=65 && intConvert<=90) //RANGE ASCI HURUF KECIL RIDAK DIPAKAI
+                            (intConvert>=65 && intConvert<=90) //RANGE ASCI HURUF KECIL TIDAK DIPAKAI
             )
             {
                 //STEP6
