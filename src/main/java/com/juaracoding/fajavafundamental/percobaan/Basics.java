@@ -1,4 +1,4 @@
-package com.juaracoding.fajavafundamental.cobacoba;
+package com.juaracoding.fajavafundamental.percobaan;
 /*
 Created by IntelliJ IDEA 2023.1.2 (Community Edition)
 Build #IC-231.9011.34, built on May 16, 2023
@@ -24,18 +24,18 @@ public class Basics {
 
         /*testing input dengan loop ke integer*/
 
-//        Scanner scanner = new Scanner(System.in);
-//        char chInput = 'a';
-//
-//        System.out.println("Masukkan Kata: ");
-//        String strInput = scanner.nextLine();
-//
-//
-//        for (int i= 0; i<strInput.length(); i++)
-//        {
-//          int intHasil = strInput.charAt(i);
-//            System.out.println(intHasil);
-//        }
+        Scanner scanner = new Scanner(System.in);
+        char chInput = 'a';
+
+        System.out.println("Masukkan Kata: ");
+        String strInput = scanner.nextLine();
+
+
+        for (int i= 0; i<strInput.length(); i++)
+        {
+          int intHasil = strInput.charAt(i);
+            System.out.println(intHasil);
+        }
 
 
         /*testing input hasil integer*/

@@ -1,4 +1,4 @@
-package com.juaracoding.fajavafundamental.cobacoba;
+package com.juaracoding.fajavafundamental.percobaan;
 /*
 Created by IntelliJ IDEA 2023.1.2 (Community Edition)
 Build #IC-231.9011.34, built on May 16, 2023
@@ -48,12 +48,12 @@ public class OpJava {
 //        System.out.println( "Isi variabel f: " + f);
 
         /*testing1*/
-//        int a = 10;
-//        int b = 5;
-//        boolean hasil;
-//
-//        hasil = a <= b;
-//        System.out.println("hasil and: "+hasil);
+        int a = 10;
+        int b = 5;
+        boolean hasil;
+
+        hasil = a <= b;
+        System.out.println("hasil and: "+hasil);
 
 
 
