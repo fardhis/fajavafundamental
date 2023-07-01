@@ -15,8 +15,8 @@ public class Basics {
     public static void main(String args[]) {
 
         /*testing1*/
-//    System.out.println("halo dunia");
-//
+    System.out.println("halo dunia");
+
 //        for (int i = 0; i<10; i++){
 //            System.out.println("Perulangan ke "+i);
 //        }
@@ -24,18 +24,18 @@ public class Basics {
 
         /*testing input dengan loop ke integer*/
 
-        Scanner scanner = new Scanner(System.in);
-        char chInput = 'a';
-
-        System.out.println("Masukkan Kata: ");
-        String strInput = scanner.nextLine();
-
-
-        for (int i= 0; i<strInput.length(); i++)
-        {
-          int intHasil = strInput.charAt(i);
-            System.out.println(intHasil);
-        }
+//        Scanner scanner = new Scanner(System.in);
+//        char chInput = 'a';
+//
+//        System.out.println("Masukkan Kata: ");
+//        String strInput = scanner.nextLine();
+//
+//
+//        for (int i= 0; i<strInput.length(); i++)
+//        {
+//          int intHasil = strInput.charAt(i);
+//            System.out.println(intHasil);
+//        }
 
 
         /*testing input hasil integer*/
@@ -80,6 +80,9 @@ public class Basics {
 //
 //        System.out.println(umur);
 //        System.out.println(duplikatUmur);
+
+
+
 
 
 

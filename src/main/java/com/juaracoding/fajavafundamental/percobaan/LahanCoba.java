@@ -9,62 +9,111 @@ Created on 6/24/2023 6:45 PM
 Version 1.0
 */
 
-import java.util.Scanner;
-//public class LahanCoba {
-//    public static void main(String[] args) {
-//
-//
-//            static StringBuilder sBuild = new StringBuilder();
-//
-//
-//                int val[] = {69,89,31,56,99};
-//                String bef = "";
-//                String aft = "";
-//                int initz = 0;
-//                int intContainer = 0;
-//
-//
-//                //ASC INT
-//                sBuild.setLength(0);
-//                //before
-//                System.out.println("\n==BEFORE==");
-//                for (int num:val)
-//                {
-//                    bef = sBuild.append(num).append(",").toString();
-//                }
-//
-//                System.out.print(bef.substring(0,bef.length()-1));
-//
-//                //logic
-//                for(int i = 0 ; i < val.length ; i++)
-//                {
-//                    initz = i;
-//                    //makes efficient , no need loop for the end of process
-//                    if(i!=val.length-1)
-//                    {
-//                        for (int j = i ; j < val.length ; j++)
-//                        {
-//                            if(val[initz] > val[j])
-//                            {
-//                                initz = j;
-//                            }
-//                        }
-//                    }
-//                    intContainer = val[i];
-//                    val[i] = val[initz];
-//                    val[initz] = intContainer;
-//                }
-//                sBuild.setLength(0);
-//                //after
-//                System.out.println("\n==AFTER==");
-//                for (int num:val)
-//                {
-//                    aft = sBuild.append(num).append(",").toString();
-//                }
-//                System.out.print(aft.substring(0,aft.length()-1));
+public class LahanCoba {
+    public static void main(String[] args) {
+
+//        String namaFirst = "TOE";
+//        String namaSecond = "TEA";
+////        String strCompare = namaFirst.compareTo(namaSecond);
+////
+////
+////
+//        System.out.println(namaFirst.compareTo(namaSecond));
+
+//        int n = 1;
+//        int j =2;
+//        if ( n == 2 ) {
+//            System.out.println("OK");
+//        }
+//        else if ( j == 2 ) {
+//            System.out.println("yes");
+//        }
+//        else {
+//            System.out.println("no");
+//        }
+//        System.out.println("12");
+
+//        String strQ = "";
+//        int intLoop = 0;
+//        for (int i = 0; i<5; i++) {
+//            intLoop++;
+//            if(intLoop<5){
+//                continue;
 //            }
+//            intLoop++;
+//        }
+//
+//            System.out.println("Perulangan ke "+intLoop);
+
+//        String strSambung = "welcome";
+//        System.out.println(strSambung.substring(1,5));
+
+//        int intLoop = 0;
+//        for (int i = 0; i<10; i++){
+//            intLoop++;
+//            for ( int j = 0 ; j<20; j++){
+//                intLoop++;
+//            }
+//        }
+//        System.out.println(intLoop);
+
+
+//        int intLoop = 0;
+//        for (int i = 0; i<10; i++){
+//            intLoop++;
+//            for ( int j = 0 ; j<20; j++){
+//                if(j==10)
+//                {
+//                break;
+//                }
+//                intLoop++;
+//            }
+//        }
+//        System.out.println(intLoop);
+
+//        int intLoop = 0;
+//        for (int i = 0; i<10; i++){
+//            for ( int j = 0 ; j<20; j++){
+//                if(j==10)
+//                {
+//                    continue;
+//                }
+//                intLoop++;
+//            }
+//        }
+//        System.out.println(intLoop);
+
+
+//        int intLoop = 0;
+//        for (int i = 0; i<5; i++){
+//            intLoop++;
+//            if(intLoop>5)
+//            {
+//                break;
+//            }
+//        }
+//        System.out.println(intLoop);
+
+
+
+//        int intLoop = 0;
+//        boolean isGood = true;
+//        do {
+//            intLoop++;
+//            while (!isGood);
+//            System.out.println(isGood);
 //        }
 
 
-//    }
-//}
+//        int intLoop = 0;
+//        boolean isGood = true;
+//        do {
+//            intLoop++;
+//            continue;
+//        }while (!isGood);
+//            System.out.println(isGood);
+
+
+
+    }
+}
