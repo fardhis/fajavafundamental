@@ -22,7 +22,8 @@ public class ProgramUpperLowerCase {
             System.out.println("Ini huruf kapital");
         } else
         {
-            if (intInput>=97 && intInput<=122){
+            if (intInput>=97 && intInput<=122)
+            {
                 System.out.println("Ini huruf kecil");
             } else {System.out.println("Ini bukan huruf");}
         }
