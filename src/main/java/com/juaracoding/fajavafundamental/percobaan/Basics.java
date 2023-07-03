@@ -53,8 +53,8 @@ public class Basics {
 
 
                 /*testing2*/
-//        char chA = 'A';
-//                System.out.println("nilai A adalah "+chA);
+        int chA = 'A';
+                System.out.println("nilai A adalah "+chA);
 
 //short i = 254;
 //byte I = (byte) i;

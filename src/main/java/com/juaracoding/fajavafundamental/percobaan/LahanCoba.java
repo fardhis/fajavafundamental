@@ -113,7 +113,9 @@ public class LahanCoba {
 //        }while (!isGood);
 //            System.out.println(isGood);
 
-
+            String namaFirst = "Bajuriqwerty";
+            String namaSecond = "Bajuri";
+            System.out.println(namaFirst.compareTo(namaSecond));
 
     }
 }
