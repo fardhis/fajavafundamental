@@ -13,9 +13,52 @@ public class ConsOne {
     String cobaSatu;
     int cobaDua;
 
-    String cobaTiga();
 
-    int CobaEmpat = 100;
+    public ConsOne() {
+        System.out.println("kosong");
+    }
+
+    public ConsOne(int cobaDua) {
+        this.cobaDua = cobaDua;
+        System.out.println("integer");
+    }
+
+
+
+
+    public ConsOne(String cobaSatu) {
+        this.cobaSatu = cobaSatu;
+        System.out.println("ada string");
+    }
+
+
+
+    //    public ConsOne()
+//    {
+//        System.out.println("Hey");
+//    }
+//
+//    public ConsOne(String cobaSatu)
+//    {
+//        System.out.println("halo");
+//    }
+//
+//    public ConsOne(int cobaDua)
+//    {
+//
+//    }
+//
+//
+//    public void getString(){
+//
+//    }
+//
+//    private int intx;
+//
+//    private String strA;
+
+
+
 
 
 }

@@ -9,6 +9,8 @@ Created on 6/24/2023 6:45 PM
 Version 1.0
 */
 
+import java.util.Random;
+
 public class LahanCoba {
     public static void main(String[] args) {
 
@@ -113,9 +115,22 @@ public class LahanCoba {
 //        }while (!isGood);
 //            System.out.println(isGood);
 
-            String namaFirst = "Bajuriqwerty";
-            String namaSecond = "Bajuri";
-            System.out.println(namaFirst.compareTo(namaSecond));
+//            String namaFirst = "Bajuriqwerty";
+//            String namaSecond = "Bajuri";
+//            System.out.println(namaFirst.compareTo(namaSecond));
+
+
+//        System.out.println(Character.isDigit('&'));
+//        System.out.println(Character.isAlphabetic('|'));
+//        System.out.println(Integer.toHexString(192));
+//        System.out.println(Character.isUpperCase('L'));
+//
+//        System.out.println(Math.max(2,5));
+
+        Random ran = new Random();
+
+        System.out.print(ran.nextInt(5,7));
+
 
     }
 }

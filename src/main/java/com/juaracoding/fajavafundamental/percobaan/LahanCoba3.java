@@ -9,20 +9,39 @@ Created on 7/3/2023 6:41 PM
 Version 1.0
 */
 
+import java.util.Scanner;
+
 public class LahanCoba3 {
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
+        String strInput = "a";
+        int intInput = 0;
+        char charInput = 'a';
 
-//        int angka = 18;
-//
-//        System.out.println(Integer.toBinaryString(angka));
-//        System.out.println(Integer.toHexString(angka));
-//        System.out.println(Integer.toOctalString(angka));
 
-//        Character karakter = 'b';
-//        System.out.println(Character.isUpperCase(karakter));
-//
+
+//        strInput = scanner.nextLine();
+//        charInput = strInput.charAt(0);
+//        intInput = charInput;
+
+
+        Character charAt = scanner.next().charAt(0);
+        intInput = charAt;
+
+
+//        int intInput = 'z';
+        if (intInput>=65 && intInput<=90)
+        {
+            System.out.println("Ini huruf kapital");
+        } else
+        {
+            if (intInput>=97 && intInput<=122)
+            {
+                System.out.println("Ini huruf kecil");
+            } else {System.out.println("Ini bukan huruf");}
+        }
 
 
     }

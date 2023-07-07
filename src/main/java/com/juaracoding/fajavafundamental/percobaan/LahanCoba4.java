@@ -9,37 +9,40 @@ Created on 7/4/2023 4:31 PM
 Version 1.0
 */
 
-public class LahanCoba4 {
-    public static void main(String[] args) {
+import java.util.Random;
 
-        int intVal[] = {69,89,31,56,99};
-        int intIntz = 0;
-        int intContainer = 0;
+//public class LahanCoba4 {
+//    public static void main(String[] args) {
 
-        for(int i = 1; i < intVal.length; i++)
-        {
-            intIntz = i;
-            if(i!=intVal.length-1)
-            {
-                for (int j = i ; j < intVal.length ; j++)
-                {
-                    if(intVal[intIntz] > intVal[j])
-                    {
-                        intIntz = j;
-                    }
-                }
-                System.out.println(intVal[i]);
-            }
+
+//        int intVal[] = {69,89,31,56,99};
+//        int intIntz = 0;
+//        int intContainer = 0;
+//
+//        for(int i = 1; i < intVal.length; i++)
+//        {
+//            intIntz = i;
+//            if(i!=intVal.length-1)
+//            {
+//                for (int j = i ; j < intVal.length ; j++)
+//                {
+//                    if(intVal[intIntz] > intVal[j])
+//                    {
+//                        intIntz = j;
+//                    }
+//                }
+//                System.out.println(intVal[i]);
+//            }
 //            intContainer = intVal[i];
 //            intVal[i] = intVal[intIntz];
 //            intVal[intIntz] = intContainer;
 //            System.out.println(intVal[intIntz]);
-        }
+//        }
 
 
 
 
-
-    }
-}
-
+//
+//    }
+//}
+//

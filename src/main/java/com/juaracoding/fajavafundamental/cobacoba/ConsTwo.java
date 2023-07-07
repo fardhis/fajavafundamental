@@ -10,7 +10,13 @@ Version 1.0
 */
 
 public class ConsTwo {
+    public static void main(String[] args) {
 
+        ConsOne consOne = new ConsOne("hehe");
+
+
+
+    }
 
 }
 
